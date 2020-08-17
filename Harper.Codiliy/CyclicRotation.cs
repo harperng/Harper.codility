@@ -20,7 +20,6 @@ namespace Harper.Codiliy
                 newArr[i] = A[(i + (A.Length - K)) % (A.Length)];
 
             }
-
             return newArr;
 
         }

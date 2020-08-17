@@ -7,6 +7,11 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="CyclicRotation.cs" />
+    <Compile Remove="fogriver.cs" />
+    <Compile Remove="max.cs" />
+    <Compile Remove="MissingInt.cs" />
+    <Compile Remove="perm.cs" />
   </ItemGroup>
 
 </Project>

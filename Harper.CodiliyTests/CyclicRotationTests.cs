@@ -19,7 +19,7 @@ namespace Harper.Codiliy.Tests
             int K = 3;
             int[] expected = new int[] { 6, 3, 8, 9, 7 };
             int[] actual = solution.Solution(A,K);
-
+            Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
         public void SolutionTest_02()
@@ -29,7 +29,7 @@ namespace Harper.Codiliy.Tests
             int K = 3;
             int[] expected = new int[] {7, 6, 3, 8, 9 };
             int[] actual = solution.Solution(A, K);
-
+            Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
         public void SolutionTest_03()
@@ -39,6 +39,7 @@ namespace Harper.Codiliy.Tests
             int K = 3;
             int[] expected = new int[] { 9, 7, 6, 3, 8 };
             int[] actual = solution.Solution(A, K);
+            Assert.AreEqual(expected, actual);
 
         }
         public void SolutionTest_04()
@@ -48,6 +49,7 @@ namespace Harper.Codiliy.Tests
             int K = 3;
             int[] expected = new int[] { 9, 7, 6, 3, 8 };
             int[] actual = solution.Solution(A, K);
+            Assert.AreEqual(expected, actual);
 
         }
     }

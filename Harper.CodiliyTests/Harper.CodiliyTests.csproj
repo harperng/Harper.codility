@@ -56,8 +56,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="BinaryGapTests.cs" />
-    <Compile Include="CyclicRotationTests.cs" />
+    <Compile Include="FrogRiverOneTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
